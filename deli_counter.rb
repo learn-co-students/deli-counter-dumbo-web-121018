@@ -3,10 +3,10 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    out = "The line is currently: "
+    out = "The line is currently:"
     counter = 0
     while counter < array.length
-      str = "#{counter + 1}. #{array[counter]} "
+      str = " #{counter + 1}. #{array[counter]}"
       out << str
       counter += 1
     end
