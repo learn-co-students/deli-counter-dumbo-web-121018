@@ -5,13 +5,11 @@ def line(array)
   else
     out = "The line is currently: "
     counter = 0
-    while counter < array.length - 1
+    while counter < array.length
       str = "#{counter + 1}. #{array[counter]} "
       out << str
       counter += 1
     end
-    str = "#{counter + 1}. #{array[counter]}"
-    out << str
     puts out
   end
 end
